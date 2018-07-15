@@ -1,0 +1,12 @@
+.kpi-list {
+  margin: 10px 0;
+}
+
+.kpi-list .kpi-block {
+  display: inline-block;
+}
+
+.kpi-list kpi:not(:last-child),
+.kpi-list big-kpi:not(:last-child) {
+  margin-right: 8px;
+}

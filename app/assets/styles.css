@@ -1,0 +1,16 @@
+body {
+  font-size: 14px;
+  color: #7d8081;
+}
+
+.text-hard-muted {
+  color: #e0e0e0;
+}
+
+.selected-kpi {
+  border-color: #82cef2 !important;
+}
+
+.disabled {
+  background-color: #f1f1f1;
+}

@@ -1,0 +1,31 @@
+.kpi-block {
+  width: 161px;
+  height: 84px;
+  border: 2px solid #dddddd;
+}
+
+.kpi-block > span {
+  display: block;
+  width: 157px;
+  white-space: nowrap;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.kpi-block p {
+  text-align: center;
+}
+
+.kpi-block .block-name {
+  padding: 8px 0;
+  font-size: 12px;
+}
+
+.kpi-block .block-count {
+  padding-bottom: 6px;
+}
+
+.kpi-block .block-dynamic {
+  font-size: 0.8em;
+}

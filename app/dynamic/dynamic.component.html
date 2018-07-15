@@ -1,0 +1,12 @@
+<p class="block-dynamic">
+  <span ng-if="$ctrl.positiveDynamic()">
+    <i class="fa fa-arrow-up text-success" aria-hidden="true"></i>
+  </span>
+  <span ng-if="$ctrl.negativeDynamic()">
+    <i class="fa fa-arrow-down text-danger" aria-hidden="true"></i>
+  </span>
+  <span ng-if="$ctrl.staticDynamic()">
+    <i class="fa fa-arrow-right text-muted" aria-hidden="true"></i>
+  </span>
+  <span class="text-muted" ng-bind="$ctrl.value || '&mdash;  Нет данных'"></span>
+</p>

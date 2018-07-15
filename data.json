@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Посетители (все)",
+    "value": "65 022",
+    "value_type": "чел.",
+    "dynamic_value": "+7.00%",
+    "main": "true"
+  },
+  {
+    "name": "Длительность",
+    "value": "53",
+    "value_type": "мин.",
+    "dynamic_value": "-19.00%",
+    "main": "true"
+  },
+  {
+    "name": "Доля лояльных",
+    "value": "65",
+    "value_type": "%",
+    "dynamic_value": "+7.00%",
+    "main": "true"
+  },
+  {
+    "name": "Доля новых",
+    "value": "35",
+    "value_type": "%",
+    "dynamic_value": "-10.00%",
+    "main": "false"
+  },
+  {
+    "name": "Доля вовлеченных",
+    "value": "72",
+    "value_type": "%",
+    "dynamic_value": "-2.00%",
+    "main": "false"
+  },
+  {
+    "name": "Shopping Index",
+    "value": "",
+    "value_type": "",
+    "dynamic_value": "",
+    "main": "false"
+  }
+]

@@ -1,0 +1,8 @@
+<div class="kpi-block" ng-click="$ctrl.onSelect($ctrl.block)" ng-class="{ 'disabled': $ctrl.isEmptyKpi(), 'selected-kpi': $ctrl.block.selected }">
+  <span class="block-name" ng-bind="($ctrl.block.name | uppercase) || '-'"></span>
+  <span class="block-count">
+    <b ng-bind="$ctrl.block.value || '-'"></b>
+    <span class="text-hard-muted" ng-bind="$ctrl.block.value_type">чел.</span>
+  </span>
+  <dynamic value="$ctrl.block.dynamic_value"></dynamic>
+</div>

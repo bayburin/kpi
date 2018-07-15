@@ -1,0 +1,7 @@
+<div class="kpi-list" ng-if="!$ctrl.bigBlock">
+  <kpi ng-repeat="block_data in $ctrl.list" block="block_data" on-select="$ctrl.selectKpi(block_data)"></kpi>
+</div>
+<div class="kpi-list" ng-if="$ctrl.bigBlock">
+  <big-kpi ng-repeat="block_data in $ctrl.list" ng-hide="block_data.main == 'false'" block="block_data"\
+           on-select="$ctrl.selectKpi(block_data)"></big-kpi>
+</div>

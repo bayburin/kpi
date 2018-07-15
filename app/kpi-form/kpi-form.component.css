@@ -1,0 +1,33 @@
+.kpi-form {
+  width: 460px;
+  height: 200px;
+  border: 1px solid #dddddd;
+  color: #a19998;
+}
+
+.kpi-form > .header {
+  height: 60px;
+  border-bottom: 1px solid #dddddd;
+  text-transform: uppercase;
+}
+
+.kpi-form > .header > p {
+  padding: 10px 15px;
+}
+
+.kpi-form > .content input {
+  width: 410px;
+  margin: 20px 20px;
+  border: 2px solid #7bfa8c;
+  padding-left: 20px;
+  color: #a19998;
+}
+
+.kpi-form > .content input:focus {
+  box-shadow: none;
+}
+
+::placeholder {
+  color: #a19998 !important;
+  opacity: 1;
+}

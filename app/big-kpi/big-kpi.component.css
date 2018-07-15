@@ -1,0 +1,32 @@
+big-kpi .kpi-block {
+  width: 184px;
+  height: 96px;
+  border: 2px solid #dddddd;
+}
+
+big-kpi .kpi-block > span {
+  display: block;
+  width: 179px;
+  white-space: nowrap;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+big-kpi .kpi-block p {
+  text-align: center;
+}
+
+big-kpi .kpi-block .block-name {
+  padding: 10px 0;
+  font-size: 13px;
+}
+
+big-kpi .kpi-block .block-count {
+  padding-bottom: 8px;
+  font-size: 15px;
+}
+
+big-kpi .kpi-block .block-dynamic {
+  font-size: 0.9em;
+}
